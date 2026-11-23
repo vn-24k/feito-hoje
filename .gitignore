@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+.worktrees/
+.superpowers/
+.vercel/
+.env
+.env.*
+!.env.example
