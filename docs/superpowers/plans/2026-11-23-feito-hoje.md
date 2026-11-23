@@ -32,7 +32,7 @@
 
 ---
 
-### Tarefa 1: Preparar o projeto e registrar a direção visual
+### Task 1: Preparar o projeto e registrar a direção visual
 
 **Arquivos:**
 - Criar: `package.json`, `index.html`, `tsconfig.json`, `vite.config.ts`, `src/main.tsx`, `src/App.tsx`, `src/App.test.tsx`, `src/styles.css`, `.gitignore`
@@ -47,7 +47,7 @@
 - [ ] **Etapa 3:** registrar as escolhas de cores e estilo em `.21st/design.json` e `.21st/DESIGN.md`; isolar estilos de qualquer componente externo sob uma classe exclusiva.
 - [ ] **Etapa 4:** criar um teste de renderização em `src/App.test.tsx` e executar `npm run build` e `npm run test -- --run`; resultado esperado: compilação de produção limpa e teste passando.
 
-### Tarefa 2: Criar o modelo da ação diária, o armazenamento e a formatação de exportação
+### Task 2: Criar o modelo da ação diária, o armazenamento e a formatação de exportação
 
 **Arquivos:**
 - Criar: `src/domain/action.ts`, `src/domain/date.ts`, `src/domain/storage.ts`, `src/domain/markdown.ts`
@@ -64,7 +64,7 @@
 - [ ] **Etapa 6:** testar a formatação Markdown com acentos, aspas e reflexão em várias linhas; implementar `toObsidianMarkdown(action)` em `src/domain/markdown.ts`.
 - [ ] **Etapa 7:** executar `npm run test -- --run`; resultado esperado: todos os testes de domínio passam.
 
-### Tarefa 3: Criar o fluxo diário e o histórico de sete dias
+### Task 3: Criar o fluxo diário e o histórico de sete dias
 
 **Arquivos:**
 - Criar: `src/components/TodayFlow.tsx`, `src/components/WeekHistory.tsx`, `src/components/AreaPicker.tsx`
@@ -82,7 +82,7 @@
 - [ ] **Etapa 5:** adicionar estilos editoriais acolhedores e responsivos, foco de teclado visível, rótulos semânticos e suporte a movimento reduzido.
 - [ ] **Etapa 6:** executar todos os testes e `npm run build`; resultado esperado: testes passando e pacote de produção compilado.
 
-### Tarefa 4: Adicionar exportação para o Obsidian e backup/restauração local
+### Task 4: Adicionar exportação para o Obsidian e backup/restauração local
 
 **Arquivos:**
 - Criar: `src/components/ExportControls.tsx`, `src/components/ExportControls.test.tsx`, `src/domain/backup.ts`, `src/domain/backup.test.ts`
@@ -99,7 +99,7 @@
 - [ ] **Etapa 5:** implementar os controles de exportação com mensagens claras de sucesso/erro e sem chamadas de rede.
 - [ ] **Etapa 6:** executar todos os testes e `npm run build`; resultado esperado: testes passando e pacote de produção compilado.
 
-### Tarefa 5: Revisar, publicar e confirmar o funcionamento
+### Task 5: Revisar, publicar e confirmar o funcionamento
 
 **Arquivos:**
 - Atualizar: arquivos apontados por problemas determinísticos encontrados na revisão.
