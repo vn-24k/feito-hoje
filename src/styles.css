@@ -1,0 +1,167 @@
+:root {
+  --fh-canvas: #f5f0e7;
+  --fh-paper: #fffdf8;
+  --fh-ink: #29231f;
+  --fh-muted-ink: #615850;
+  --fh-line: #d8cbb5;
+  --fh-champagne: #c6a05f;
+  --fh-accent: #9e6c3a;
+  color: var(--fh-ink);
+  background: var(--fh-canvas);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: var(--fh-canvas);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--fh-accent);
+  outline-offset: 3px;
+}
+
+.feito-hoje {
+  min-height: 100vh;
+  padding: 20px;
+  background: var(--fh-canvas);
+}
+
+.feito-hoje__pagina {
+  display: flex;
+  width: min(100%, 680px);
+  min-height: calc(100vh - 40px);
+  margin: 0 auto;
+  padding: clamp(28px, 7vw, 56px) clamp(22px, 7vw, 64px) 28px;
+  flex-direction: column;
+  border: 1px solid var(--fh-line);
+  border-radius: 5px;
+  background: var(--fh-paper);
+  box-shadow: 0 18px 48px rgb(67 46 26 / 9%);
+}
+
+.feito-hoje__cabecalho {
+  max-width: 33rem;
+}
+
+.feito-hoje__data,
+.feito-hoje__marca {
+  margin: 0;
+  color: var(--fh-accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.feito-hoje h1,
+.feito-hoje h2 {
+  color: var(--fh-ink);
+  font-family: Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.feito-hoje h1 {
+  margin: 12px 0 14px;
+  font-size: clamp(3.1rem, 11vw, 5.7rem);
+  line-height: 0.94;
+}
+
+.feito-hoje__proposito {
+  max-width: 29rem;
+  margin: 0;
+  color: var(--fh-muted-ink);
+  font-size: 1.05rem;
+  line-height: 1.62;
+}
+
+.feito-hoje__convite {
+  display: grid;
+  gap: 18px;
+  margin-top: clamp(66px, 15vh, 148px);
+  padding: 24px 0 28px;
+  border-top: 1px solid var(--fh-line);
+  border-bottom: 1px solid var(--fh-line);
+}
+
+.feito-hoje__convite h2 {
+  margin: 0 0 10px;
+  font-size: clamp(1.75rem, 6vw, 2.75rem);
+  line-height: 1.05;
+}
+
+.feito-hoje__convite p:not(.feito-hoje__marca) {
+  max-width: 31rem;
+  margin: 0;
+  color: var(--fh-muted-ink);
+  line-height: 1.6;
+}
+
+.feito-hoje__rodape {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: auto;
+  padding-top: 42px;
+  color: var(--fh-muted-ink);
+  font-size: 0.82rem;
+}
+
+.feito-hoje__ponto {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--fh-champagne);
+}
+
+@media (min-width: 640px) {
+  .feito-hoje {
+    padding: 36px;
+  }
+
+  .feito-hoje__pagina {
+    min-height: calc(100vh - 72px);
+  }
+
+  .feito-hoje__convite {
+    grid-template-columns: 112px 1fr;
+    gap: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

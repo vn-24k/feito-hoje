@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "project": {
+    "name": "Feito Hoje",
+    "productType": "ferramenta pessoal local",
+    "stack": ["Vite", "React", "TypeScript", "CSS"]
+  },
+  "sources": {
+    "tokens": [],
+    "components": [],
+    "assets": [],
+    "instructions": []
+  },
+  "design": {
+    "colorMode": "light",
+    "colors": {
+      "canvas": "#F5F0E7",
+      "paper": "#FFFDF8",
+      "ink": "#29231F",
+      "mutedInk": "#615850",
+      "line": "#D8CBB5",
+      "champagne": "#C6A05F",
+      "warmAccent": "#9E6C3A"
+    },
+    "typography": {
+      "display": "Iowan Old Style, Palatino Linotype, Georgia, serif",
+      "body": "Inter, ui-sans-serif, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "8px",
+      "pagePadding": "20px mobile / 36px desktop"
+    },
+    "radius": {
+      "paper": "5px",
+      "controls": "definido com discrição nas tarefas de fluxo"
+    },
+    "shadows": {
+      "paper": "0 18px 48px rgb(67 46 26 / 9%)"
+    },
+    "motion": {
+      "default": "sutil e funcional",
+      "reducedMotion": "sem animação não essencial"
+    },
+    "density": "arejada, com uma ação por vez"
+  },
+  "components": {
+    "installed": [],
+    "preferredPrimitives": [],
+    "patterns": []
+  },
+  "constraints": {
+    "must": [
+      "Toda a interface e instruções do produto em português brasileiro.",
+      "Composição mobile-first, acessível por teclado e com foco visível.",
+      "Registros locais: não sugerir envio de dados pessoais pela rede.",
+      "Usar uma página editorial acolhedora, sem aparência de painel."
+    ],
+    "avoid": [
+      "Metáforas de cockpit, métricas densas, linguagem punitiva ou cartões genéricos.",
+      "Visuais ou imagens de viagem, apesar da referência sorteada incompatível.",
+      "Efeitos chamativos, gradientes decorativos e movimento que ignore preferência reduzida.",
+      "Expor nomes de bibliotecas ou processos internos na interface pública."
+    ]
+  },
+  "decisions": [
+    {
+      "title": "Caderno editorial claro",
+      "decision": "Uma página de papel quente em um fundo champanhe muito claro, com linhas finas e uma única coluna de leitura.",
+      "reason": "A ferramenta precisa convidar a um compromisso possível, não parecer uma máquina de produtividade."
+    },
+    {
+      "title": "Tipografia humana e legível",
+      "decision": "Títulos em uma serifada de livro disponível no sistema; corpo em sans-serif de sistema de alta legibilidade.",
+      "reason": "Preserva a sensação editorial sem depender do carregamento de fontes externas."
+    },
+    {
+      "title": "Interação futura",
+      "decision": "Controles do fluxo serão discretos, com foco visível e sem bibliotecas externas de UI; qualquer CSS externo deverá ficar encapsulado em uma classe exclusiva.",
+      "reason": "Garante privacidade, desempenho e evita contaminação visual."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "21st search",
+      "finding": "A busca por formulário editorial mobile retornou opções editoriais e acessíveis; nenhuma foi instalada para manter o esqueleto leve e livre de CSS de terceiros."
+    },
+    {
+      "source": "arsenal local",
+      "finding": "Foram avaliados componentes de botão e entrada do acervo local como referência semântica; os efeitos visuais de papel e composição de objetos foram recusados por não se integrarem ao fluxo de uma ferramenta pessoal."
+    }
+  ],
+  "generatedAt": "2026-11-23T14:30:14.387Z"
+}
