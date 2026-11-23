@@ -42,7 +42,7 @@
 **Interfaces:**
 - Entrega: aplicação Vite, React e TypeScript executável e direção visual documentada para as tarefas seguintes.
 
-- [ ] **Etapa 1:** consultar as instruções específicas do projeto, executar o sorteio persistente para `feito-hoje` e pesquisar somente componentes adequados ao tema no arsenal local e no 21st.dev.
+- [ ] **Etapa 1:** consultar as instruções específicas do projeto, executar o sorteio persistente para `feito-hoje`, rodar `21st init --design-context` e pesquisar somente componentes adequados ao tema no arsenal local e no 21st.dev.
 - [ ] **Etapa 2:** criar a estrutura React com TypeScript e configurar Vitest, jsdom e Testing Library.
 - [ ] **Etapa 3:** registrar as escolhas de cores e estilo em `.21st/design.json` e `.21st/DESIGN.md`; isolar estilos de qualquer componente externo sob uma classe exclusiva.
 - [ ] **Etapa 4:** criar um teste de renderização em `src/App.test.tsx` e executar `npm run build` e `npm run test -- --run`; resultado esperado: compilação de produção limpa e teste passando.
