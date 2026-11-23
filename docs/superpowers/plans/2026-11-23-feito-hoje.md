@@ -13,6 +13,7 @@
 ## Restrições gerais
 
 - Uma rota responsiva; sem login, sincronização na nuvem, lembretes, análises de uso ou envio de registros pessoais pela rede.
+- Toda a interface e as instruções devem estar em português brasileiro.
 - O armazenamento do navegador é a fonte principal; incluir backup/restauração JSON e exportação Markdown para o Obsidian.
 - Usar a data local, com `America/Sao_Paulo` como fuso horário padrão para agrupar os dias.
 - Uma ação não realizada não pode gerar linguagem punitiva nem impedir a retomada.

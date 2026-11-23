@@ -47,6 +47,7 @@ Criar a sensação de um caderno editorial acolhedor, com bastante espaço em br
 
 ## Dados e limites técnicos
 
+- Toda a interface e as instruções serão em português brasileiro.
 - Começar como aplicação web estática executada no navegador; guardar os registros no armazenamento local do navegador.
 - Não criar contas, análises de uso ou transmissão de registros pela rede.
 - Oferecer cópia e download de Markdown para transferência ao Obsidian, com confirmação visível após copiar ou salvar.
